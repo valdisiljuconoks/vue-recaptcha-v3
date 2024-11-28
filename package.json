@@ -1,5 +1,5 @@
 {
-  "name": "vue-recaptcha-v3",
+  "name": "vue-recaptcha-v3-esm",
   "version": "2.0.1",
   "keywords": [
     "captcha",
@@ -20,7 +20,8 @@
   "files": [
     "/dist",
     "/README.md",
-    "/LICENSE"
+    "/LICENSE",
+    "/CHANGELOG.md"
   ],
   "main": "dist/ReCaptchaVuePlugin.js",
   "types": "dist/ReCaptchaVuePlugin.d.ts",
@@ -33,6 +34,7 @@
     "recaptcha-v3": "^1.10.0"
   },
   "devDependencies": {
+    "@babel/types": "^7.26.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-config-standard-with-typescript": "^21.0.1",
